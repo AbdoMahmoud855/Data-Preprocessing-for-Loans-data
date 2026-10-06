@@ -120,8 +120,8 @@ Sample of the raw data:
 
 ### Loan amount distribution
 
-![Boxplot of loan_amount](<img width="665" height="452" alt="image" src="https://github.com/user-attachments/assets/e94451bf-93e7-4e6d-a7c6-0455e89a545b" />
-)
+![Boxplot of loan_amount] <img width="665" height="452" alt="image" src="https://github.com/user-attachments/assets/e94451bf-93e7-4e6d-a7c6-0455e89a545b" />
+
 
 Loan amounts range from roughly 600 to 15,000, with a median of about 8,300 and an interquartile range of approximately 4,200 to 11,700. No outliers are flagged, so no treatment is needed for this variable.
 
