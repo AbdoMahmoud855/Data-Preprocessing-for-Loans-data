@@ -119,23 +119,21 @@ Sample of the raw data:
 ## Results
 
 ### Loan amount distribution
-
-![Boxplot of loan_amount] <img width="665" height="452" alt="image" src="https://github.com/user-attachments/assets/e94451bf-93e7-4e6d-a7c6-0455e89a545b" />
-
+ 
+ <img width="665" height="452" alt="image" src="https://github.com/user-attachments/assets/e94451bf-93e7-4e6d-a7c6-0455e89a545b" />
 
 Loan amounts range from roughly 600 to 15,000, with a median of about 8,300 and an interquartile range of approximately 4,200 to 11,700. No outliers are flagged, so no treatment is needed for this variable.
 
 ### Interest rate distribution
 
-![Boxplot of rate](<img width="612" height="447" alt="image" src="https://github.com/user-attachments/assets/8192b501-6ada-45ef-aa37-75ad1aba313b" />
-)
+<img width="612" height="447" alt="image" src="https://github.com/user-attachments/assets/8192b501-6ada-45ef-aa37-75ad1aba313b" />
+
 
 Interest rates are right-skewed, with a median near 2.8 and an interquartile range of roughly 1.2 to 4.8. Three points above the upper whisker (about 10.5, 10.9, and 12.6) are flagged as outliers and should be reviewed before modeling.
 
 ### Correlation analysis
 
-![Correlation heatmap](<img width="861" height="583" alt="image" src="https://github.com/user-attachments/assets/07e9f70e-a4a5-4dad-be96-c20db12e4a7f" />
-)
+(<img width="861" height="583" alt="image" src="https://github.com/user-attachments/assets/07e9f70e-a4a5-4dad-be96-c20db12e4a7f" />
 
 All pairwise correlations are close to zero (`loan_amount` vs `rate` = -0.033), indicating no meaningful linear relationship between the numeric variables. Correlations with `client_id` carry no analytical meaning because it is an identifier and should be excluded from numeric correlation analysis.
 
